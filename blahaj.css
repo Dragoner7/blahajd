@@ -1,0 +1,25 @@
+p{
+	font-family:'Impact';
+	color: white;
+	font-size:30px;
+}
+body{
+	background-color: #474747;
+}
+
+.rotate {
+	margin-top: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
